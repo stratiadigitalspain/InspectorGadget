@@ -1,0 +1,19 @@
+{
+  "name": "inspectorgadget-amazon-connector",
+  "version": "1.0.0",
+  "description": "Backend seguro para sincronizar productos de Amazon sin exponer claves en el frontend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sync": "node scripts/sync-now.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
